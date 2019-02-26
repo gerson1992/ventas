@@ -19,7 +19,7 @@ namespace ventas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola Pumas que tengan un excelente dia");
+            MessageBox.Show("Hola Pumas que tengan un excelente periodo");
         }
     }
 }
