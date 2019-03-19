@@ -49,12 +49,19 @@
     <Compile Include="BL\CategoriasBL.cs" />
     <Compile Include="BL\CiudadBL.cs" />
     <Compile Include="BL\ClienteBL.cs" />
+    <Compile Include="BL\FacturaBL.cs" />
     <Compile Include="BL\ProductoBL.cs" />
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -77,6 +84,7 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="modelos\Factura.cs" />
     <Compile Include="modelos\Productos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -105,6 +116,7 @@
     <None Include="Properties\DataSources\ventas.BL.CategoriasBL.datasource" />
     <None Include="Properties\DataSources\ventas.BL.CiudadBL.datasource" />
     <None Include="Properties\DataSources\ventas.BL.ClienteBL.datasource" />
+    <None Include="Properties\DataSources\ventas.BL.FacturaBL.datasource" />
     <None Include="Properties\DataSources\ventas.BL.ProductoBL.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
