@@ -16,12 +16,13 @@ namespace ventas
         public Form3()
         {
             InitializeComponent();
-            var ClienteBL = new ClienteBL();
-            listadeClienteBindingSource.DataSource = ClienteBL.ListadeCliente;
+           
+        }
 
-            var CiudadBL = new CiudadBL();
+        public void cargarDatos(ClienteBL clientesBL, CiudadBL CiudadBL )
+        {
+            listadeClienteBindingSource.DataSource = clientesBL.ListadeCliente;
             listadeCiudadBindingSource.DataSource = CiudadBL.ListadeCiudad;
-
         }
     }
 }

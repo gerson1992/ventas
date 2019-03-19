@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,11 +10,11 @@ namespace ventas.BL
 {
    public class CiudadBL
     {
-        public List<Ciudad> ListadeCiudad { get; set; }
+        public BindingList<Ciudad> ListadeCiudad { get; set; }
 
         public CiudadBL()
         {
-            ListadeCiudad = new List<Ciudad>();
+            ListadeCiudad = new BindingList<Ciudad>();
             CrearDatosdePrueba();
         }
 

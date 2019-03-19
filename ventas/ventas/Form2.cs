@@ -18,10 +18,12 @@ namespace ventas
         {
             InitializeComponent();
 
-            var productoBL = new ProductoBL();
-            listadeProductosBindingSource.DataSource = productoBL.ListadeProductos;
+            
+        }
 
-            var CategoriasBL = new CategoriasBL();
+        public void cargarDatos(ProductoBL productoBL, CategoriasBL CategoriasBL)
+        {
+            listadeProductosBindingSource.DataSource = productoBL.ListadeProductos;
             listadecategoriasBindingSource.DataSource = CategoriasBL.Listadecategorias;
 
         }

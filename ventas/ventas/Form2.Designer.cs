@@ -136,6 +136,7 @@
             // 
             // listadeProductosBindingSource
             // 
+            this.listadeProductosBindingSource.AllowNew = true;
             this.listadeProductosBindingSource.DataSource = typeof(ventas.modelos.Productos);
             // 
             // bindingNavigatorCountItem

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,11 +10,11 @@ namespace ventas.BL
 {
     public class ProductoBL
     {
-        public List<Productos> ListadeProductos { get; set; }
+        public BindingList<Productos> ListadeProductos { get; set; }
 
         public ProductoBL()
         {
-            ListadeProductos = new List<Productos>();
+            ListadeProductos = new BindingList<Productos>();
             CrearDatosdePrueba();
         }
 

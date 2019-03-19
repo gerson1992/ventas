@@ -13,6 +13,12 @@ namespace ventas.modelos
         public int CategoriaId { get; set; }
         public double Precio { get; set; }
         public Categoria Categoria { get; set; }
+
+        public Productos()
+        {
+            Categoria = new Categoria(1, "Laptops");
+            CategoriaId = Categoria.Id;
+        }
   
 
         public Productos(int id, string descripcion, double precio,  Categoria categoria)
